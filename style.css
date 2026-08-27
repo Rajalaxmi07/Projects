@@ -1,0 +1,206 @@
+body {
+      font-family: Arial, Times new roman;
+      line-height: 1.6;
+      color: #363434 ;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+
+    .resume-container {
+      background: #ffffff;
+      padding: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    /* 1. Header Section (Centered) */
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #00008B;
+    }
+
+    header h4 {
+      margin: 8px 0 0 0;
+      font-weight: 400;
+      color: #000000 ;
+    }
+
+    /* Section Styling */
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 5px;
+      color: #00008B  ;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* Clearfix Utility for Floated Content */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    /* 2. About Section (Floated Image Layout) */
+    .about-section .profile-img {
+      float: right;
+      width: 130px;
+      height: 130px;
+      border-radius: 10%;
+      object-fit: cover;
+      margin-left: 25px;
+      margin-bottom: 10px;
+margin-top: 5px;
+    }
+
+    .about-section .about-content {
+      /* Takes remaining space alongside floated image */
+      overflow: hidden; 
+    }
+
+    .about-section p {
+      margin: 0;
+    }
+
+    /* 3. Education & Internship Flex Items (Left/Right Alignment) */
+    .education-item 
+     {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .internship-item 
+     {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 15px;
+    }
+     
+
+    .education-details
+    {
+      max-width: 75%;
+    }
+     .internship-details 
+    {
+      max-width: 75%;
+    }
+
+    .education-details h3,
+    .internship-details h3  
+    {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #34495e;
+    }
+
+    .education-details p,
+     .internship-details p  
+    {
+      margin: 2px 0 0 0;
+      color: #363434;
+    }
+
+    .education-year,
+     .internship-duration 
+     {
+      font-weight: bold;
+      color: #7f8c8d;
+      white-space: nowrap;
+text align: right;
+    }
+
+    /* Button styling for project/internship links */
+.link-btn {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 6px 12px; /* Adjust padding for smaller size  padding : top left bottom right */
+  background-color: #2980b9;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.link-btn:hover {
+  background-color: #1f6391;
+  text-decoration: none;
+} 
+
+    /* 4. Projects Section */
+    
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-item img {
+    width: 220px;
+    border-radius: 10px;
+ 
+}
+
+.project-item.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-item h3 {
+    margin: 0 0 4px 0;
+    font-size: 1.1rem;
+    color: #34495e;
+}
+
+.project-item p {
+    margin: 0;
+    color: #363434;
+}
+
+    /* 5. Contact Section */
+     .contact-info {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      margin-top: 10px;
+    } 
+
+     .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color:  #363434 ;
+    }
+
+    .contact-item a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    } 

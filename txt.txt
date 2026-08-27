@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>
+     Resumee </title>
+<!--internal css-->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="resume-container">
+
+<!--Header Section-->
+<header>
+<!--name & profession-->
+<h1>RAJALAXMI E</h1>
+<h3>Software Engineer</h3>
+</header>
+
+<!--about section-->
+<section class="about-section clearfix">
+<h2>About Me</h2>
+<img src="me.jpeg" alt="Profile Picture"  class="profile-img">
+<div class="about-content">
+<p>
+I am a motivated and enthusiastic B.Tech Information Technology student with a strong interest in software development and emerging technologies. I possess a solid foundation in programming languages such as Java, Python, C, C++, SQL, HTML, and CSS, and I am continuously enhancing my technical and problem-solving skills through hands-on learning, certifications, and projects. I am a quick learner, adaptable, and committed to continuous improvement. My objective is to begin my career as a Software Engineer, contribute effectively to innovative projects, and grow into a skilled technology professional while creating meaningful solutions.
+</p>
+</div>
+</section>
+
+<!--education section-->
+<section class="education-section">
+<h2>Education</h2>
+
+<div class="education-item">
+<div class="education-details">
+<h3>Bachelor of Information Technology</h3>
+<p>Dr.M.G.R Educational and Research Institute</p>
+</div>
+<div class="education-year">2024 - 2028</div>
+</div>
+
+<div class="education-item">
+<div class="education-details">
+<h3>Higher Secondary Education</h3>
+<p>Koilpillai Memorial Matric Hr.Sec.School</p>
+</div>
+<div class="education-year">2023 - 2024</div>
+</div>
+</section>
+
+<!--Internship Experience Section-->
+<section class="internship-section">
+<h2>Internship Experience</h2>
+
+<div class="internship-item">
+<div class="internship-details">
+<h3>Frontend Developer Intern - TechSolutions Inc.</h3>
+<p>Learning and developing responsive web interfaces using HTML, CSS, and JavaScript as a Frontend Developer Intern.</p>
+
+<!--Anchor tag styled as a button-->
+<a href="java_basic certificate.pdf" target="_blank" class="link-btn">
+View Project / Certificate &rarr;
+</a>
+</div>
+<div class="internship-duration">6 Months (Jan - Jun 2023)</div>
+</div>
+
+<div class="internship-item">
+<div class="internship-details">
+<h3>Software Engineering Interrn - Innovate Labs</h3>
+<p>Assisted in developing and maintaining software applications while collaborating with the development team.Gained hands-on experience in coding, debugging, testing, and implementing software solutions.
+</p>
+
+<!--Anchor tag styled as a button-->
+<a href="InfosysSpringborad certificate 1.pdf" target="_blank" class="link-btn">
+View Details &rarr;
+</a>
+</div>
+<div class="internship-duration">3 Months (Jul - Sep 2022)</div>
+</div>
+</section>
+
+<!--Projects Section-->
+<section class="projects-section">
+<h2>Projects</h2>
+
+<div class="project-item">
+<div class="project-content">
+<h3>Student Management</h3>
+<p>
+ Built a <span style="color: #9b59b6;">Student Management System</span> with <b>Java Spring Boot</b>, enabling efficient <u>student record management</u>, secure data handling, and seamless <i>database integration</i>.
+</p>
+</div>
+<img src="C:\Users\dell\OneDrive\Pictures\Saved Pictures\Student_Management.jpg" alt="Certificate">
+</div>
+
+<div class="project-item reverse">
+<div class="project-content">
+<h3>Student-Dropout Prediction</h3>
+<p>
+Developed an <span style="color: #e67e22;">AI-based Student Dropout Prediction and Counseling System</span> to <b>predict at-risk students</b>, analyze academic performance, and enable <span style="color: #27ae60;">timely intervention</span> through <i>data-driven insights and personalized guidance</i>.
+</p>
+</div>
+<img src="C:\Users\dell\OneDrive\Pictures\Saved Pictures\Drop.jpg" alt="Certificate">
+</div>
+</section>
+
+<!--Contact Section-->
+<section class="contact-section">
+<h2>Contact</h2>
+
+<div class="contact-info">
+<div class="contact-item">
+<strong>Phone:</strong> +91 9043535166
+</div>
+<div class="contact-item">
+<strong>Email:</strong> <a href="mailto:erajalaxmi2007@gmail.com">erajalaxmi2007@gmail.com</a>
+</div>
+</div>
+</section>
+
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
